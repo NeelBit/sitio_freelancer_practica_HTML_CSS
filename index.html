@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio freelancer</title>
+
+    <!-- cargar sitio mas rápido -->
+    <link rel="preload" href="css/normalize.css" as="style">
+
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
+    <!-- cargar sitio mas rápido -->
+    <link rel="preload" href="css/style.css" as="style">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+
+<!-- Sitio para promoción personal de servicios de una persona. 
+Servicio técnico a equipos informáticos y desarrollo web. -->
+
+<body>
+
+    <header class="header">
+
+        <h1>Nombre Apellido <span>freelancer</span></h1>
+
+    </header>
+    
+    <!-- barra de navegacion -->
+    <div class="nav-bg">
+        <nav class="nav_principal">
+
+                <a class="item_menu" href="#">Inicio</a>
+
+                <a class="item_menu" href="#seccion-superior" accesskey="m">Sobre mi</a>
+
+                <a class="item_menu" href="#mis_servicios" accesskey="s">Clientes</a>
+
+                <!-- alt+c acceso por teclado -->
+                <a class="item_menu" href="#seccion_contacto" accesskey="c">Contacto</a>
+
+        </nav>
+    </div>
+
+    <!-- seccion superior -->
+    <section class="seccion-superior" id="seccion-superior">
+
+        <div class="contenido-seccion-superior">
+            
+            <h2>Servicio técnico y desarrollo web freelancer</h2>
+
+            <div>
+            
+                <figure>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-location" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5" />
+                    </svg>
+                    
+                    <figcaption>
+                        <p id="nombre_localidad">Nombre de localidad, Provincia</p>
+                    </figcaption>
+                </figure>
+
+                
+                <button class="btn_contacto"><a href="#seccion_contacto" accesskey="c">Contactar</a></button>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+
+    <!-- principal -->
+    <main class="mis_servicios" id="mis_servicios">
+
+        <h2>Mis servicios</h2>
+
+        <div class="mis_servicios_contenido">
+
+
+            <section class="mi_seccion">
+                <h3>Servicio técnico</h3>
+                <figure>
+    
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices-pc" width="80" height="80" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 5h6v14h-6z" />
+                        <path d="M12 9h10v7h-10z" />
+                        <path d="M14 19h6" />
+                        <path d="M17 16v3" />
+                        <path d="M6 13v.01" />
+                        <path d="M6 16v.01" />
+                    </svg>
+    
+                    <figcaption>Reparación y mantenimiento a equipos informáticos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a lectus interdum dolor gravida feugiat. </figcaption>
+                
+                </figure>
+            </section>
+            
+            <section class="mi_seccion">
+                <h3>Desarrollo web</h3>
+                <figure>
+    
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-browser" width="80" height="80" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="1" />
+                        <line x1="4" y1="8" x2="20" y2="8" />
+                        <line x1="8" y1="4" x2="8" y2="8" />
+                    </svg>
+                    
+                    <figcaption>Desarrollamos aplicaciones web enfocadas en tu negocio. Optimizada para buscadores. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a lectus interdum dolor gravida feugiat. </figcaption>
+                
+                </figure>
+            </section>
+            
+            <section class="mi_seccion">
+                <h3>E-Commerce</h3>
+                <figure>
+    
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-briefcase" width="80" height="80" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="3" y="7" width="18" height="13" rx="2" />
+                        <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
+                        <line x1="12" y1="12" x2="12" y2="12.01" />
+                        <path d="M3 13a20 20 0 0 0 18 0" />
+                    </svg>
+    
+                    <figcaption>Visita nuestra tienda. . Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a lectus interdum dolor gravida feugiat. </figcaption>
+                
+                </figure>
+            </section>
+
+
+        </div>
+        
+    </main>
+
+    <!-- contacto -->
+    <section class="seccion_contacto" id="seccion_contacto">
+
+        <h2>Contacto</h2>
+
+        <form action="" method="get">
+
+            <fieldset>
+
+                <legend>Contácteme completando todos los campos </legend>
+
+                <div class="contenedor-input">
+
+                    <div>
+                        <label class="mi_input" for="nombre">Nombre</label>
+                        <input class="mi_input" type="text" name="nombre" id="nombre" required placeholder="Tu nombre">
+                    </div>
+    
+                    <div>
+                        <label class="mi_input" for="tel">Teléfono</label>
+                        <input class="mi_input" type="tel" name="tel" id="tel" required pattern="[0-9]" placeholder="Tu teléfono">
+                    </div>
+    
+                    <div class="correo">
+                        <label class="mi_input" for="email">Correo</label>
+                        <input class="mi_input" type="email" name="email" id="email" required placeholder="Tu correo electrónico">
+                    </div>
+                    
+                    <div class="msg">
+                        <label class="mi_input" for="text">Mensaje</label>
+                        <textarea class="mi_input" name="mensaje" id="mensaje" cols="30" rows="10" required placeholder="Escriba su mensaje"></textarea>
+                    </div>
+
+                </div>
+
+                
+
+                <div>
+                    <input class="btn-enviar" type="submit" value="Enviar">
+                </div>
+
+            </fieldset>
+
+
+
+        </form>
+
+    </section>
+
+    <!-- pie de página -->
+    <footer class="footer">Todos los derechos reservados. <small>2021</small>. <address> Autor del sitio</address></footer>
+
+</body>
+</html>
